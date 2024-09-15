@@ -1,0 +1,130 @@
+
+<!doctype html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title></title> 
+    <link rel="stylesheet" href="styles.css"> 
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-image: url('Background.jpg'); 
+            background-size: cover; 
+            background-position: center; 
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas: 
+                "top-left top-right"
+                "button button"
+                "bottom-left bottom-right"
+                ". bottom-text";
+            gap: 20px;
+            text-align: center;
+            position: relative; 
+        }
+
+        .box {
+            width: 150px;
+            height: 200px;
+            border: 2px solid white;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .box-top-left {
+            grid-area: top-left;
+        }
+
+        .box-bottom-right {
+            grid-area: bottom-right;
+        }
+
+        .text {
+            color: white;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            font-size: 12px;
+            line-height: 1.5;
+            text-align: left;
+        }
+
+        .text-top-right {
+            grid-area: top-right;
+        }
+
+        .text-bottom-left {
+            grid-area: bottom-left;
+          
+        }
+
+        .text-bottom {
+            grid-area: bottom-text;
+            position: bottom;
+            bottom: 50px; 
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            padding: 10px; 
+            font-size: 12px; 
+            line-height: 1.4; 
+        }
+
+        .button {
+            grid-area: button;
+            padding: 10px 20px;
+            font-size: 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            background-color: white;
+            color: black;
+            margin: auto;
+        }
+    </style> 
+</head> 
+<body> 
+    <audio autoplay>
+        <audio src="yiee.mp3" autoplay></audio>
+        Your browser does not support the audio element.
+    </audio>
+    <div class="container"> 
+        <div class="box box-top-left"> 
+            <img src="img1.JPEG" alt="Image 1"> 
+        </div> 
+        <div class="text text-top-right">
+            akala to talaga tahimik buhay ko buong college, tapos biglang may magandang dumating, shet tatanggihan to pa ba? siyempre hindi, ikaw na yan eh!
+            From pretending to kasama na mag timezone, sm bowling, naks! Umuusad na'ko ah. I really do appreciate every assurance, every time na hindi ko rin gets pinagsasabi ko, every updates, tapos every compliment mo para sa akin. thank u love really. Mahal kita not only when everything is perfect because I want you even if everything is a total chaos. 
+        </div> 
+        <a href="https://www.messenger.com/t/100011887275952/" class="button">TAP IT</a>
+        <div class="text text-bottom-left">
+            magsasabi ka lang kung may problema hahaha. Let's make each other our safe place, pahinga ka sakin pag pagod ka. I love everything about u jing, lalo na yung mga mata mo. Cutiee mo pa everytime na nagkkuwento ka about sa araw mo kahit puro pa kagaguhan XD.., you deserve so much love, jing, Kung iniisp mo na loving u was red, Hindi. You are more than enough love, You deserve also to be treated well. Natikita ko future ko tapos ikaw kasama hayyyy, tayo na talaga para sa isat isa, 
+        </div> 
+        <div class="box box-bottom-right"> 
+            <img src="img2.JPEG" alt="Image 2"> 
+        </div> 
+        <div class="text text-bottom">
+            simula nung dumating ka araw-araw perfect na yung araw ko with u hihi, every sinasalubong natin yung isat isa para magyakap buo na yung araw ko. I know its too late but, happy international women's day my ginger, I LOVE YOU SO SO MUCH MWA HIHI
+        </div> 
+    </div> 
+</body>
+</html>
